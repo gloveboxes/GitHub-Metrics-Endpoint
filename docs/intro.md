@@ -5,7 +5,7 @@ slug : /
 
 # GitHub Metrics
 
-Ever wanted to track your GitHub activity over time? Well, now you can!
+Ever wanted to track your GitHub activity over time? Well, now you can!!
 
 [GitHub metrics docs](https://gloveboxes.github.io/GitHub-Metrics-Endpoint/)
 
