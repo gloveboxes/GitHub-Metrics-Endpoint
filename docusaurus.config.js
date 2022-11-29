@@ -9,8 +9,8 @@ const config = {
   title: "GitHub Metrics Reporting",
   tagline: "GitHub Metrics Reporting",
 
-  url: "https://GitHubMetricsDocs.github.io/",
-  baseUrl: "/docs/",
+  url: "https://gloveboxes.github.io",
+  baseUrl: "/GitHub-Metrics-Endpoint/docs/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/gloveboxes/docs/tree/docs",
+          editUrl: "https://github.com/gloveboxes/GitHub-Metrics-Endpoint/tree/docs",
         },
         blog: false,
         theme: {
