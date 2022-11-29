@@ -5,9 +5,11 @@ slug : /
 
 # GitHub Metrics
 
-Ever wanted to track your GitHub activity over time? Well, now you can!!
+Ever wanted to track your GitHub activity over time? Well, now you can!
 
-[GitHub metrics docs](https://gloveboxes.github.io/GitHub-Metrics-Endpoint/)
+## Contributing
+
+This [GitHub Metrics](https://github.com/gloveboxes/GitHub-Metrics-Endpoint) project is open source and welcomes contributions. Please raise an issue or submit a pull request.
 
 ## Overview
 
@@ -249,10 +251,6 @@ jobs:
 ## Power BI Report
 
 ![The image shows Power BI Reporting](img/power-bi-report.png)
-
-## Contributing
-
-This project is open source and welcomes contributions. Please raise an issue or submit a pull request.
 
 ## Appendix
 
