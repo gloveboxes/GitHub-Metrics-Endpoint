@@ -10,7 +10,7 @@ const config = {
   tagline: "GitHub Metrics Reporting",
 
   url: "https://gloveboxes.github.io",
-  baseUrl: "/GitHub-Metrics-Endpoint/docs/",
+  baseUrl: "/GitHub-Metrics-Endpoint/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
