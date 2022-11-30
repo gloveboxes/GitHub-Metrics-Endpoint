@@ -45,7 +45,7 @@ Follow these steps to create a GitHub Action that collects metrics from the GitH
 1. Select **Start commit**.
 1. Select **Commit new file**.
 
-    ![](../img/add-github-action.png)
+    ![This image overviews steps take to deploy the GitHub Action](../img/add-github-action.png)
 
 ## Test the GitHub Action
 
