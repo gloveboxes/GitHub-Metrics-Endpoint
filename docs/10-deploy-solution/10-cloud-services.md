@@ -1,7 +1,5 @@
 # Deploy cloud services
 
-
-
 1. Change to the `infra` folder in the cloned repository.
 
     ```bash
@@ -34,7 +32,7 @@
     az deployment group create --resource-group $RESOURCE_GROUP_NAME --template-file main.bicep --query properties.outputs
     ```
 
-### Azure Function App Endpoint URL
+## Azure Function App Endpoint URL
 
 When the deployment completes, the output will display the _reporting_endpoint_url_ and the _reporting_endpoint_key_.
 
@@ -51,7 +49,7 @@ When the deployment completes, the output will display the _reporting_endpoint_u
 }
 ```
 
-1. Update the **github.env** file found in the **config** folder with the _reporting_endpoint_url_ and the _reporting_endpoint_key_.
+1. Update the **github.env** file in the **config** folder with the _reporting_endpoint_url_ and the _reporting_endpoint_key_.
 
     ```text
     REPORTING_PAT=

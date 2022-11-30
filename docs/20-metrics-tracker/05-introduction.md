@@ -2,7 +2,7 @@
 
 ![The image shows connecting a GitHub action to the Azure Function App](../img/github-action.png)
 
-GitHub metrics are collected by a GitHub action that is triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in a database.
+GitHub metrics are collected by a GitHub action triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in a database.
 
 In this section, you will learn how to:
 

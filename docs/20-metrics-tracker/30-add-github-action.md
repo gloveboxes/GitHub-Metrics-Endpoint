@@ -52,6 +52,6 @@ Follow these steps to create a GitHub Action that collects metrics from the GitH
 1. Select **Actions** from the repo menu.
 1. From the Actions menu, select **GitHub repo metrics report**.
 1. Select **Run workflow**, then select **Run workflow** again.
-1. Check that the workflow completed successfully. The GitHub Action will show a green checkmark if the workflow completed successfully.
+1. Check that the workflow completes successfully. The GitHub Action will show a green checkmark if the workflow completes successfully.
 
     ![This image overviews steps take to deploy the GitHub Action](../img/test-github-action.png)
