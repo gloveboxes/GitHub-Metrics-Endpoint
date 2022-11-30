@@ -6,9 +6,9 @@ GitHub metrics are collected by a GitHub action that is triggered by a scheduled
 
 In this section, you will learn how to:
 
-1. Create a fine-grained GitHub Personal Access Token (PAT).
-1. Upload GitHub secrets.
-1. Create a GitHub action.
+1. Create a [fine-grained GitHub Personal Access Token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github) (PAT).
+1. Upload GitHub secrets with the GitHub CLI.
+1. Add a GitHub action.
 
 <!-- The instructions below assume you are tracking GitHub metrics for repos in your personal GitHub account.
 
