@@ -7,15 +7,21 @@ slug : /
 
 Ever wanted to track your GitHub activity over time? Well, now you can!
 
-## Contributing
+GitHub does not provide a way to track metrics for more than 14 days. This solution provides a way to track metrics for any GitHub repo for as long as you want.
 
-This [GitHub Metrics](https://github.com/gloveboxes/GitHub-Metrics-Endpoint) project is open source and welcomes contributions. Please raise an issue or submit a pull request.
-
-## Overview
+GitHub metrics are collected by a GitHub action that is triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in Azure SQL. Power BI is used to visualize the metrics data.
 
 ![The image shows the solution architecture](img/architecture.png)
 
-GitHub metrics are collected by a GitHub action that is triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in a database. Power BI is used to visualize the metrics data.
+## Reporting with Power BI
+
+The GitHub repo metrics data is stored in a Azure SQL. Numerous reporting tools can be used to visualize the data using Azure SQL. This solution uses Power BI to visualize the data. Azure SQL is used with Power BI as it supports [Power BI Direct Query](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-directquery), a more efficient way to connect to data sources.
+
+![The image shows reporting with Power BI](img/power-bi-report-example.png)
+
+## Contributing
+
+This [GitHub Metrics](https://github.com/gloveboxes/GitHub-Metrics-Endpoint) project is open source and welcomes contributions. Please raise an issue or submit a pull request.
 
 ## Understanding the documentation
 
