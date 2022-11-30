@@ -7,7 +7,7 @@ GitHub metrics are stored in an Azure SQL database. Power BI is used to visualiz
 A basic Power BI report is provided with this solution. The report is a starting point for you to create your own reports. To get started with the Power BI report, follow these instructions.
 
 1. Download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop).
-1. Open the Power BI report from the **PowerBI** folder in the solution.
+1. Open the Power BI report from the **power_bi** folder in the solution.
 1. From the Power BI Desktop, select **File**, then **Options and settings**.
 1. Select **Data source settings**.
 1. Select **Change source**. You will need:
