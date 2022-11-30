@@ -16,16 +16,16 @@ Follow these steps to create a GitHub Action that collects metrics from the GitH
     #   2. The webhook endpoint url:  REPORTING_ENDPOINT_URL
     #   3. The webhook endpoint key:  REPORTING_ENDPOINT_KEY
     #   4. Reporting group/team:      REPORTING_GROUP
-    
+
     name: "GitHub repo metrics report"
-    
+
     on:
       schedule:
         # Run this once per day, towards the end of the day for keeping the most
         # recent data point most meaningful (hours are interpreted in UTC).
         - cron: "0 23 * * *"
       workflow_dispatch: # Allow for running this manually.
-    
+
     jobs:
       report_metrics_job:
         runs-on: ubuntu-latest
@@ -52,3 +52,6 @@ Follow these steps to create a GitHub Action that collects metrics from the GitH
 1. Select **Actions** from the repo menu.
 1. From the Actions menu, select **GitHub repo metrics report**.
 1. Select **Run workflow**, then select **Run workflow** again.
+1. Check that the workflow completed successfully. The GitHub Action will show a green checkmark if the workflow completed successfully.
+
+    ![This image overviews steps take to deploy the GitHub Action](../img/test-github-action.png)
