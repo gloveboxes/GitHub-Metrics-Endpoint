@@ -4,6 +4,8 @@
 
 GitHub metrics are stored in an Azure SQL database. Power BI is used to visualize the metrics data.
 
+![The image shows reporting with Power BI](img/power-bi-report-example.png)
+
 A basic Power BI report is provided with this solution. The report is a starting point for you to create your own reports. To get started with the Power BI report, follow these instructions.
 
 1. Download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop).
