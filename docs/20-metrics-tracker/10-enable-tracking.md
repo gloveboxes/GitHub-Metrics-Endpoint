@@ -1,5 +1,7 @@
 # Create a Personal Access Token
 
+Create a Personal Access Token that can be **reused** across all the GitHub repos you want to track.
+
 1. Navigate to the GitHub web portal and log in.
 1. Select your profile icon in the top right corner.
 1. Select **Settings**, then **Developer Settings**, then **Personal Access Tokens**.

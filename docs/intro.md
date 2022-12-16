@@ -3,13 +3,29 @@ sidebar_position: 1
 slug : /
 ---
 
-# GitHub metrics tracker
+# Introduction
 
-Ever wanted to track your GitHub activity over time? Well, now you can!
+## TLDR
+
+Ever wanted to track your GitHub clones, stars over time? Well, now you can! 
+
+To track your GitHub stats, you need:
+
+1. Access to a GitHub metrics tracker, or [create your own](10-deploy-solution/03-introduction.md).
+1. A [fine-grained GitHub Personal Access Token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github) (PAT).
+1. To upload GitHub secrets with the GitHub CLI.
+1. To create a GitHub action.
+
+For more details, follow the [metrics tracker](20-metrics-tracker/05-introduction.md) documentation.
+
+Here's a high level overview of the solution architecture:
+
+<!-- ## Getting started
+
 
 GitHub does not provide a way to track metrics for more than 14 days. This solution tracks metrics for any GitHub repo for as long as you want.
 
-GitHub metrics are collected by a GitHub action triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in an Azure SQL database. Power BI is used to visualize the metrics data.
+GitHub metrics are collected by a GitHub action triggered by a scheduled event. The GitHub action collects metrics from the GitHub API and posts the metrics to an Azure Function App webhook. The Azure Function App webhook is a secure endpoint that accepts the metrics payload and stores the metrics in an Azure SQL database. Power BI is used to visualize the metrics data. -->
 
 ![The image shows the solution architecture](img/architecture.png)
 
