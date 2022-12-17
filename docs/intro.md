@@ -7,16 +7,12 @@ slug : /
 
 ## TLDR
 
-Ever wanted to track your GitHub clones, stars over time? Well, now you can! 
+Ever wanted to track your GitHub clones, stars stats over time for as long as you want? Well, now you can!
 
 To track your GitHub stats, you need:
 
-1. Access to a GitHub metrics tracker, or [create your own](10-deploy-solution/03-introduction.md).
-1. A [fine-grained GitHub Personal Access Token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github) (PAT).
-1. To upload GitHub secrets with the GitHub CLI.
-1. To create a GitHub action.
-
-For more details, follow the [metrics tracker](20-metrics-tracker/05-introduction.md) documentation.
+1. Access to a deployed GitHub metrics tracker, or [deploy your own](10-deploy-solution/03-introduction.md).
+1. To set up a [GitHub action](20-metrics-tracker/05-introduction.md) to post metrics to the tracker.
 
 Here's a high level overview of the solution architecture:
 
@@ -38,8 +34,3 @@ The GitHub repo metrics data is stored in an Azure SQL database. Numerous report
 ## Contributing
 
 This [GitHub Metrics](https://github.com/gloveboxes/GitHub-Metrics-Endpoint) project is open source and welcomes contributions. Please raise an issue or submit a pull request.
-
-## Understanding the documentation
-
-1. To enable GitHub metrics tracking for a repo, then follow the [metrics tracker](20-metrics-tracker/05-introduction.md) documentation.
-1. To deploy the GitHub metrics solution, then follow the [deploy solution](10-deploy-solution/03-introduction.md) documentation.
